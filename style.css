@@ -1,0 +1,224 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #08031d;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.head {
+    font-size: 4.5rem;
+    color : #fcfaf9;
+    text-align: center;
+    margin-top: 4rem;
+    font-family: "cinzel";
+}
+.start-msg{
+    background-color: #ffb997;
+    width  :auto ;
+    height : 4rem;
+    border-radius: 20px;
+    color : #090224;
+    font-size: 1.3rem;
+    padding: 0.8rem;
+    border: none;
+    font-weight: 900;
+    text-align: center;
+    font-family :Verdana, Geneva, Tahoma, sans-serif ;
+    transition: 0.3s ease;
+}
+.game{
+    height : 60vh;
+    width : 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start-msg:hover{
+   transform: scale(1.05);
+   background-color: #f67e7d;
+}
+.content{
+    margin-top: 9rem;
+    width : auto;
+    height : auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #141A2E;
+    border: 1px solid rgba(255,215,0,0.25);
+    box-shadow: 0px 0px 1rem rgba(255,215,0,0.35);
+    border-radius: 18px;
+}
+.Question-count{
+    background-color :#1F2940;
+    height :2rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color  :#E5E5E5;
+    width : 100%;
+    text-align: left;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    font-weight: 400;
+}
+.question{
+    width : 100%;
+    height : auto;
+    text-align: center;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color :#F8FAFC;
+    background-color :#141A2E;
+}
+.options {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: auto;
+    width : 100%;
+    padding: 2rem;
+    padding-left: 3rem;
+} 
+.result {
+    height: auto;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap :2rem;
+    border-radius: 15px;
+    margin-top: 0.5rem;
+}
+.msg , .next , .reset, .Retry{
+    height : 3rem;
+    width : 8rem;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: grey; /*#0F9D58*/
+    color :#E5E5E5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0px 0px 1rem rgba(255,215,0,0.35);
+}
+.Retry{
+    background-color:#694707 ;
+    border-radius: 10px;
+}
+.next{
+    background-color:#C9A227 ;
+}
+.reset{
+    background-color: #694707;
+}
+.next:hover,.reset:hover{
+    opacity: 0.5;
+}
+.options ul li{
+    list-style: none;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    margin-top: 0.5rem;
+    background-color: #1F2940;
+    color :#E5E5E5;
+    box-shadow: 0px 0px 0.2rem rgba(255,215,0,0.35);
+}
+.options ul li:hover{
+    background-color: #2D3A5F;
+    cursor:pointer;
+}
+.winner{
+    height: auto;
+    width : auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap : 2rem;
+}
+.win-msg{
+    font-size: 2rem;
+    color : #E5E5E5;
+    font-weight: 800;
+    
+}
+.hide{
+    display: none;
+}
+@media (max-width : 800px) {
+    .head{
+        font-size: 3rem;
+    }
+}
+@media (max-width : 600px){
+    .question{
+        font-size: 1.3rem;
+    }
+    .content{
+        width : 80vw;
+    }
+}
+@media (max-width : 550px) {
+    .head{
+        font-size: 2.5rem;
+    } 
+    .start-msg{
+        height : 3rem;
+        font-size: 1rem;
+    }
+    .win-msg{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width : 430px) {
+    .msg , .next,.reset{
+        font-size: 1rem;
+    }
+    .question{
+        font-size: 1.1rem;
+    }
+    .options ul li{
+        font-size: 1rem;
+    }
+    .head{
+        font-size: 1.9rem;
+    }
+    .start-msg{
+        font-size: 0.82rem;
+    }   
+    .win-msg{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width : 330px) {
+    .msg , .next,.reset{
+        font-size: 0.8rem;
+    }
+    .question{
+        font-size: 1rem;
+    }
+    .options ul li{
+        font-size: 0.8rem;
+    }
+    .head{
+        font-size: 1.6rem;
+    }
+    .start-msg{
+        font-size: 0.7rem;
+    }
+    .win-msg{
+        font-size: 1rem;
+    }   
+}
