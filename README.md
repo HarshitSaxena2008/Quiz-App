@@ -2,7 +2,7 @@
 <br>
 A reponsive Quiz Application built using HTML, CSS, and  Javascript
 <br>
-<h1>features</h1>
+<h1>Features</h1>
 <br>
 <ul>
 <li>Multiple-choice question</li>
@@ -16,6 +16,6 @@ A reponsive Quiz Application built using HTML, CSS, and  Javascript
 <li>Html</li>
 <li>CSS</li>
 <li>JS(fetch API)</li>
-<br><br>
+<br>
 <h3>Author Name</h3>
 <p>Harshit Saxena</p>
