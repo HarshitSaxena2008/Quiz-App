@@ -1,9 +1,9 @@
 # Quiz App
 <br>
 A reponsive Quiz Application built using HTML, CSS, and  Javascript
-<br><br>
+<br>
 <h1>features</h1>
-<br><br>
+<br>
 <ul>
 <li>Multiple-choice question</li>
 <li>Instant answer feedback</li>
@@ -11,7 +11,7 @@ A reponsive Quiz Application built using HTML, CSS, and  Javascript
 <li>Responsive design for mobile and desktop</li>
 <li>Clean and user-friendly Interface</li>
 </ul>
-<br><br>
+<br>
 <h1>Technologies Used</h1>
 <li>Html</li>
 <li>CSS</li>
