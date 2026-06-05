@@ -22,7 +22,7 @@ let correctAns ;
 let userAns;
 let obj;
 
-const API_KEY = "AIzaSyDGFn5AdQVOIZB150asbjRzn1HKEy1TTBs";
+const API_KEY = "AQ.Ab8RN6JU5OzpBWF5poYNDpv1zyIdOslkWf69O7uMsotJ5OJN4g";
 async function generateMCQ(topic) {
   try {
     const response = await fetch(
@@ -78,11 +78,6 @@ async function generateMCQ(topic) {
     .replace(/```json/g, "")
     .replace(/```/g, "")
     .trim();
-    // console.log(cleaned);
-
-  // let Adata = JSON.parse(cleaned);
-
-    // let actualData = JSON.parse(Adata);
 
     return cleaned;
 
@@ -133,7 +128,6 @@ const setQuestion = (obj , i) => {
     question.innerText = obj[i].question;
     choices.forEach((choice , j ) => {
       choice.innerText = obj[i].options[j];
-      // choice.setAttribute("id",obj[i].options[j]);
     })
     correctAns =  obj[i].correct_answer;
     quesCount.innerText = `Question : ${i+1} / ${noOfQues}`;
