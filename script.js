@@ -22,7 +22,7 @@ let correctAns ;
 let userAns;
 let obj;
 
-const API_KEY = "AQ.Ab8RN6JU5OzpBWF5poYNDpv1zyIdOslkWf69O7uMsotJ5OJN4g";
+const API_KEY = "AQ.Ab8RN6JrKGwi06iX0XCjUoXqSUKuyg9bmDb4YcNqvEAw6qebJA";
 async function generateMCQ(topic) {
   try {
     const response = await fetch(

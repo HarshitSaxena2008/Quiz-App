@@ -17,5 +17,9 @@ A reponsive Quiz Application built using HTML, CSS, and  Javascript
 <li>CSS</li>
 <li>JS(fetch API)</li>
 <br>
+<h2>Live demo</h2>
+<br>
+Link :- https://quizchallanges.netlify.app/
+<br>
 <h3>Author Name</h3>
 <p>Harshit Saxena</p>
